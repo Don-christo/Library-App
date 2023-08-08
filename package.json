@@ -1,0 +1,38 @@
+{
+  "name": "week-9-task-Don-christo",
+  "packageManager": "yarn@4.0.0-rc.43",
+  "scripts": {
+    "dev": "node ./dist/app",
+    "start": "nodemon dist/app.js",
+    "compile": "tsc -w",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jest": "^29.6.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5",
+    "@types/bcryptjs": "^2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.3",
+    "@types/jsonwebtoken": "^9",
+    "@types/morgan": "^1",
+    "@types/nodemailer": "^6",
+    "@types/supertest": "^2.0.12"
+  }
+}
