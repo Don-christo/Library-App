@@ -13,5 +13,4 @@
 .pnp.*
 
 .env
-dist/
 node_modules/
